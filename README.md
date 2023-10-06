@@ -7,6 +7,7 @@
 ## 💡 Techniques Used
 - **Language:** C++
 - **Parallel Techniques:** OpenMP, MPI, Threading
+- **Compiler:** Microsoft Visual Studio 2019
 
 ## ⚙️ MPI Setup
 
@@ -31,7 +32,6 @@
    - Add `msmpi.lib`.
 
 5. **Running your MPI Program:**
-   - Add your C++ code from P6Q1.
    - Run the executable in Powershell using the command:
      ```bash
      mpiexec -n 4 filename.exe
